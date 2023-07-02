@@ -1,0 +1,35 @@
+{
+    "questions":[
+        {
+            "question": "Who is the first man created by God in the book of Genesis?",
+    "options": ["Adam", "Eve", "Cain", "Abel"],
+    "answer": "Adam",
+    "level": 1
+},
+        {
+            "question": "Who is the first woman created by God in the book of Genesis?",
+    "options": ["Sarah", "Eve", "Rebekah", "Leah"],
+    "answer": "Eve",
+    "level": 1
+},
+        {
+            "question": "Who built an ark to survive the great flood?",
+    "options": ["Moses", "Abraham", "Noah", "Isaac"],
+    "answer": "Noah",
+    "level": 2
+},
+        {
+            "question": "Who led Isrealites out of Eqypt?",
+    "options": ["Abraham", "Moses", "Noah", "Isaac"],
+    "answer": "Moses",
+    "level": 2
+},
+        {
+            "question": "Who is thrown into a lions' den but was not harmed?",
+    "options": ["Daniel", "David", "Samson", "Gideon"],
+    "answer": "Daniel",
+    "level": 3
+        }
+
+    ]
+}

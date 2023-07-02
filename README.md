@@ -1,5 +1,6 @@
 # commandline-apps-python
-* A commandline app using python concepts like
+* A commandline app using python concepts like:
+  
   ** Python File Handling
   -- Python Database Handling
   -- Control Flow

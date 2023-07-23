@@ -14,7 +14,6 @@ def create_ics_file(summary, st_time, ed_time, location, filename):
     event.add("location", location)
     cal.add_component(event)
 
-
     with open(filename, "wb") as file:
         file.write(cal.to_ical())
     print(f"{filename} created")
@@ -27,7 +26,4 @@ if __name__ == "__main__":
     location = sys.argv[4]
     filename = sys.argv[5]
 
-
     create_ics_file(summary, st_time, ed_time, location, filename)
-
-

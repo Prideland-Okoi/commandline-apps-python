@@ -36,7 +36,7 @@ def create_ics_file():
     event.add("categories", categories)
     event.add("organizer", organizer)
     for attendee in attendees:
-        event.add("attendee", attendee, encode = 0)
+        event.add("attendee", attendee, encode=0)
     cal.add_component(event)
 
 
@@ -47,5 +47,3 @@ def create_ics_file():
 
 if __name__ == "__main__":
     create_ics_file()
-
-

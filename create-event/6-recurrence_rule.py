@@ -27,7 +27,7 @@ def create_ics_file():
     event.add("url", url)
     event.add("categories", categories)
     event.add("organizer", organizer)
-    event.add("rrule", {"freq":"weekly", "count": count})
+    event.add("rrule", {"freq": "weekly", "count": count})
     cal.add_component(event)
 
 
@@ -38,5 +38,3 @@ def create_ics_file():
 
 if __name__ == "__main__":
     create_ics_file()
-
-

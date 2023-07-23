@@ -36,5 +36,3 @@ def create_ics_file():
 
 if __name__ == "__main__":
     create_ics_file()
-
-

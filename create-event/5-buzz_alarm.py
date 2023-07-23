@@ -33,8 +33,8 @@ def create_ics_file():
     alarm.add("action", "DISPLAY")
     alarm.add("description", "Reminder")
     alarm.add("trigger", timedelta(minutes=-reminder_minutes))
-    
-    
+
+
     event.add_component(alarm)
     cal.add_component(event)
 
@@ -46,5 +46,3 @@ def create_ics_file():
 
 if __name__ == "__main__":
     create_ics_file()
-
-

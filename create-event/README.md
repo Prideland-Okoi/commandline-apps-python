@@ -6,7 +6,9 @@ To run this script, you need to have icalendar module installed
 
 ## Instalation
 
-\*\* pip install icalendar
+```
+pip install icalendar
+```
 
 ## Run Script
 

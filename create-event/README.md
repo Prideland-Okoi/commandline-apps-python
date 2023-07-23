@@ -4,7 +4,7 @@
 
 To run this script, you need to have icalendar module installed
 
-## Instalation
+## Installation
 
 ```
 pip install icalendar
